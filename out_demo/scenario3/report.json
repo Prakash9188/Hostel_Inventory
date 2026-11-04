@@ -1,0 +1,61 @@
+{
+  "alignment": {
+    "ok": true,
+    "reason": "ok",
+    "keypoints_baseline": 1422,
+    "keypoints_new": 1388,
+    "good_matches": 494,
+    "ransac_inliers": 389,
+    "inlier_ratio": 0.787
+  },
+  "zones": [
+    {
+      "name": "Desk - laptop spot",
+      "item": "laptop",
+      "status": "MISSING",
+      "score": 4.859,
+      "change_ratio": 0.639,
+      "lost_edges": 0.832,
+      "gained_edges": 0.189,
+      "coverage": 1.0,
+      "note": "structure present in baseline has disappeared"
+    },
+    {
+      "name": "Desk - bottle spot",
+      "item": "water bottle",
+      "status": "MISSING",
+      "score": 4.643,
+      "change_ratio": 0.572,
+      "lost_edges": 0.891,
+      "gained_edges": 0.468,
+      "coverage": 1.0,
+      "note": "structure present in baseline has disappeared"
+    },
+    {
+      "name": "Chair",
+      "item": "chair",
+      "status": "OK",
+      "score": 0.075,
+      "change_ratio": 0.0,
+      "lost_edges": 0.037,
+      "gained_edges": 0.0,
+      "coverage": 1.0,
+      "note": ""
+    },
+    {
+      "name": "Bed",
+      "item": "bed / bedding",
+      "status": "OK",
+      "score": 0.831,
+      "change_ratio": 0.0,
+      "lost_edges": 0.416,
+      "gained_edges": 0.0,
+      "coverage": 1.0,
+      "note": ""
+    }
+  ],
+  "missing_items": [
+    "laptop",
+    "water bottle"
+  ]
+}
